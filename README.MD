@@ -18,6 +18,7 @@ Suivez les instructions pour garantir le bon fonctionnement du code.
 
 ### Lancement du projet
 1. Clonez ce projet sur votre disque local.
+   - Clonez en utilisant [Git](https://git-scm.com/downloads/win) (Télécharger et intaller avant)
    - Téléchargement ZIP : Décompressez le .zip sur un emplacement local (e.g. Bureau, Documents, Téléchargement sur Disque C)
 2. Ouvrez le dossier décompressé avec VSCode. Assurez-vous d'être bien placé sur le dossier racine `ModMath2425`.
 3. Lancez le container avec la palette de commandes : \
