@@ -1,5 +1,5 @@
 {
-	"name": "ModMath2324",
+	"name": "ModMath2425",
 	// "image": "mcr.microsoft.com/devcontainers/base:noble",
   	"dockerFile": "Dockerfile",
 	"features": {
