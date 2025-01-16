@@ -28,6 +28,6 @@ Suivez les instructions pour garantir le bon fonctionnement du code.
 Tapez `vscode` pour le mot de passe du noVNC.  -->
 
 ## Contenu
-Dans cet espace de travail ROS, vous trouverez :
+Dans cet espace de travail vous trouverez :
 - Exercices à développer (mis à jour avant chaque séance)
 - Autres documents de support
