@@ -44,7 +44,7 @@ RUN sudo ${VIRTUAL_ENV}/bin/pip config --user set global.disable-pip-version-che
     sudo ${VIRTUAL_ENV}/bin/pip install --upgrade setuptools && \
     sudo ${VIRTUAL_ENV}/bin/pip install --upgrade wheel
 RUN sudo ${VIRTUAL_ENV}/bin/pip install ipykernel docutils jupyter notebook jupyterhub
-RUN sudo ${VIRTUAL_ENV}/bin/pip install dill ipympl matplotlib numpy scipy sympy
+RUN sudo ${VIRTUAL_ENV}/bin/pip install dill ipympl matplotlib numpy scipy sympy --upgrade
 RUN sudo ${VIRTUAL_ENV}/bin/python -m ipykernel install --user --name="jupyter_devbox"
 
 # Create workspace
@@ -58,4 +58,4 @@ RUN mkdir -p /home/${USERNAME}/${WORKSPACE}/Exercises
 #     && echo "source ~/${WORKSPACE}/devel/setup.bash" >> ~/.bashrc
 
 # Smaller VNC resolution
-ENV VNC_RESOLUTION="800x600x16"
+# ENV VNC_RESOLUTION="1440x768x16"
