@@ -46,6 +46,7 @@ RUN sudo ${VIRTUAL_ENV}/bin/pip config --user set global.disable-pip-version-che
 RUN sudo ${VIRTUAL_ENV}/bin/pip install ipykernel docutils jupyter notebook jupyterhub
 RUN sudo ${VIRTUAL_ENV}/bin/pip install dill ipympl matplotlib numpy scipy sympy --upgrade
 RUN sudo ${VIRTUAL_ENV}/bin/python -m ipykernel install --user --name="jupyter_devbox"
+# RUN sudo ${VIRTUAL_ENV}/bin/pip install -U ipywidgets
 
 # Create workspace
 ARG WORKSPACE=ModMath2425
